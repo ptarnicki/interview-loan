@@ -1,0 +1,21 @@
+###
+POST http://localhost:8080/loans
+Content-Type: application/json
+
+{
+   "from": "2022-09-22",
+   "to": "2022-10-11",
+   "amount": "999"
+}
+
+###
+
+GET http://localhost:8080/loans/6074bfcf-4ffe-4d97-9457-40d181799b24
+Content-Type: application/json
+
+###
+
+PATCH http://localhost:8080/loans/6074bfcf-4ffe-4d97-9457-40d181799b24
+Content-Type: application/json
+
+###
